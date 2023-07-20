@@ -5,7 +5,7 @@ const Resume = () => {
 
     return (
         <div>
-            
+            Portfolio testing
         </div>
     )
 

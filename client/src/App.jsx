@@ -26,6 +26,10 @@ function App() {
         <Header />
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path="/AboutMe" element={<AboutMe />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Portfolio" element={<Portfolio />} />
+          <Route path="/Resume" element={<Resume />} />
         </Routes>
       </div>
     </BrowserRouter>
