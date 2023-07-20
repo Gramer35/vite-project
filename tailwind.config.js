@@ -3,7 +3,7 @@ export default {
   content: [
     "./index.html",
     // tells tailwind
-    "./client/src/**/*.{js,ts,jsx,tsx}"
+    "./client/src/**/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
     extend: {},
