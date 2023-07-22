@@ -6,7 +6,7 @@ const AboutMe = () => {
     return (
         <div className="hero min-h-fit">
             <div className="hero-content lg:flex-row">
-                <img src="/antelopeCanyon.jpg" className="max-w-sm rounded-lg shadow-2xl" />
+                <img src="/WeddingPhoto.jpg" className="max-w-sm rounded-lg shadow-2xl" />
                 <div>
                     <h1 className="text-5xl font-bold text-white text-center">About Chris</h1>
                     <br />
