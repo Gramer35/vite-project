@@ -15,6 +15,7 @@ import Resume from './pages/Resume';
 import Home from './pages/Home';
 
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
   return (
     /* Router will keep track of the location state */
     <BrowserRouter>
-      <div className='w-screen h-screen bg-red-300'>
+      <div className='w-screen h-screen bg-base-content'>
         <Header />
         <Routes>
           <Route path='/' element={<Home />} />
@@ -31,6 +32,7 @@ function App() {
           <Route path="/Portfolio" element={<Portfolio />} />
           <Route path="/Resume" element={<Resume />} />
         </Routes>
+        <Footer />
       </div>
     </BrowserRouter>
   )
