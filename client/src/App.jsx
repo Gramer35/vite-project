@@ -23,16 +23,22 @@ function App() {
   return (
     /* Router will keep track of the location state */
     <BrowserRouter>
-      <div className='w-screen h-screen bg-base-content'>
+      <div className='flex flex-col w-screen h-screen bg-base-content'>
+
         <Header />
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path="/AboutMe" element={<AboutMe />} />
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/Portfolio" element={<Portfolio />} />
-          <Route path="/Resume" element={<Resume />} />
-        </Routes>
+        <div className='flex-grow'>
+
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path="/AboutMe" element={<AboutMe />} />
+            <Route path="/Contact" element={<Contact />} />
+            <Route path="/Portfolio" element={<Portfolio />} />
+            <Route path="/Resume" element={<Resume />} />
+          </Routes>
+
+        </div>
         <Footer />
+        
       </div>
     </BrowserRouter>
   )
