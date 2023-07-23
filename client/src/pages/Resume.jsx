@@ -13,9 +13,9 @@ const Resume = () => {
             </div>
 
             <div className="grid grid-cols-6 gap-4">
-                <div className="box-content h-32 w-32 p-4 col-start-2 col-span-2">
+                <div className="box-content col-start-2 col-span-2">
 
-                    <h1 className="text-3xl">Front-End Proficiencies</h1>
+                    <h1 className="text-3xl py-4">Front-End Proficiencies</h1>
                     <ul className="list-disc">
                         <li>HTML</li>
                         <li>CSS</li>
@@ -29,8 +29,8 @@ const Resume = () => {
                     <br />
 
                 </div>
-                <div className="box-content h-32 w-32 p-4 col-start-4 col-span-2">
-                    <h1 className="text-3xl">Back-End Proficiencies</h1>
+                <div className="box-content col-start-4 col-span-2">
+                    <h1 className="text-3xl py-4">Back-End Proficiencies</h1>
                     <ul className="list-disc">
                         <li>APIs</li>
                         <li>Node</li>
