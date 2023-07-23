@@ -12,7 +12,7 @@ const Resume = () => {
 
             </div>
 
-            <div className="grid grid-cols-6 gap-4">
+            <div className="grid grid-cols-6 gap-x-11">
                 <div className="box-content col-start-2 col-span-2">
 
                     <h1 className="text-3xl py-4">Front-End Proficiencies</h1>
@@ -26,7 +26,6 @@ const Resume = () => {
                         <li>Bootstrap</li>
                         <li>Tailwind CSS, DaisyUI</li>
                     </ul>
-                    <br />
 
                 </div>
                 <div className="box-content col-start-4 col-span-2">

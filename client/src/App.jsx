@@ -26,7 +26,7 @@ function App() {
       <div className='flex flex-col w-screen h-screen bg-base-content'>
 
         <Header />
-        <div className='flex-grow'>
+        <div className='flex-grow overflow-auto'>
 
           <Routes>
             <Route path='/' element={<Home />} />
