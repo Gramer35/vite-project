@@ -11,7 +11,8 @@ const Home = () => {
                     <img className="max-w-sm shadow-md rounded-md" src='/antelopeCanyon.jpg' />
                 </div>
                 <div>
-                    <h1 className='text-white'> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita minus facilis ab tempore libero omnis reiciendis recusandae dolor. Distinctio ea animi nesciunt quis, dicta esse ratione. Natus harum aliquid dolorem.</h1>
+                    <h1 className="text-5xl text-white text-center"> WELCOME!</h1>
+                    <h1 className='text-white p-4 indent-4'>Welcome to my site that is a work in progress. To know a little about me, please visit the About Me section. For completed and in progress projects, go to Portfolio. And of course, the resume section has my resume along with what I am proficient in along with what I am working on learning </h1>
                 </div>
 
             </div>

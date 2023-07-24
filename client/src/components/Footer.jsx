@@ -6,7 +6,12 @@ const Footer = () => {
     return (
         <footer className="footer items-center p-2 bg-base-100 text-neutral-content">
             <div className="items-center grid-flow-col">
-                <p>Powered by *insert icons*</p>
+                <p>Powered by 
+                    <a href="https://react.dev/"> React,</a>
+                    <a href="https://vitejs.dev/"> Vite,</a>
+                    <a href="https://tailwindcss.com/"> Tailwind CSS,</a>
+                    <a href="https://daisyui.com/"> DaisyUI.</a>
+                </p>
             </div>
             <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
                 <a href='https://www.linkedin.com/in/christopher-gramer-2993574b/'><svg
