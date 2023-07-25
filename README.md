@@ -2,42 +2,33 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+This Project is a portfolio that is in development but is the starting point of using Vite with React. I decided to use Vite in stead of Create React App, due to the growing speed and usage of Vite. I also built this project this way because I would like to continue to build upon this an develop a back end with this using either NextJS or Express so users can contact me via the Contact Me page. Throughout the project, I learned how to integrate a CSS framework with React and use React Router to be able to go from page to page. Overall, this project is something that is a good framework for employers to see what I can do and the tools I can integrate.
 
 ## Table of Contents (Optional)
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
-- [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+- [Tools](#tools)
+
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+When a user visits the site, they are welcomed to the home page with very brief description. When they shift views to say the About Me, then they get an explanation of who I am, but the header, footer, and theme are the same. 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+![welcome page](/public/welcome.PNG)
+![welcome page](/public/aboutview.PNG)
 
 
----
+## Tools
+
+ - React: https://react.dev/
+ - Tailwind CSS: https://tailwindcss.com/
+ - DaisyUI: https://daisyui.com/
+ - React Router: https://reactrouter.com/en/main 
+ - Unsplash: https://unsplash.com/
+
+
 
 ## Acceptance Criteria
 
@@ -69,7 +60,7 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
 
-## Features
 
-If your project has a lot of features, list them here.
+https://amazing-pudding-432f8d.netlify.app/
 
+https://github.com/Gramer35/vite-project
